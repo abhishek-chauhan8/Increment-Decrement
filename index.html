@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+  </head>
+  <body class="bg-wallpaper">
+    <!-- Wrapper -->
+    <div class="bg-wallpaper w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#344151] gap-10">
+
+      <div class="text-[#0398d4] font-medium text-[30px]">Increment And Decrement</div>
+
+      <!-- Function Line  -->
+      <div class="bg-white flex text-[25px] text-[#344151] rounded-sm gap-10 p-2 px-4 justify-around">
+
+        <!--  Decrement button -->
+        <button onclick="decrement()" class="border-r-2 border-[#bfbfbf] mx-7 pr-5">
+          <i class="fa fa-minus"></i>
+        </button>
+
+        <div id="counter">
+          0
+        </div>
+
+        <!-- Increment Button -->
+        <button onclick="increment()" class="border-l-2 border-[#bfbfbf] mx-7 pl-5">
+          <i class="fa fa-plus"></i>
+        </button>
+
+      </div>
+
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+
+</html>
