@@ -1,1 +1,1 @@
-# A mini project of implementing the basic js learnings
+### A mini project of implementing the basic js learnings
